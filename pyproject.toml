@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "password-generator"
+version = "0.1.0"
+description = "A simple random password generator"
+authors = ["Anthony Rafidison"]
+readme = "README.md"
+packages = [{include = "password_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+customtkinter = "^5.0.2"
+pyperclip = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
