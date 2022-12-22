@@ -1,7 +1,7 @@
 import customtkinter # tkinter but with custom widgets
 import pyperclip
 from customtkinter import CTk as Tk
-from customtkinter import CTkButton as Button, CTkLabel as Label, CTkEntry as Entry, CTkFrame as Frame, CTkSwitch as Switch, CTkTextbox as Textbox
+from customtkinter import CTkButton as Button, CTkLabel as Label, CTkEntry as Entry, CTkSwitch as Switch, CTkTextbox as Textbox
 from core import Generator as gen
 
 customtkinter.set_appearance_mode('dark') # Set dark mode
